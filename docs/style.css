@@ -1,3 +1,27 @@
+/*Botones*/
+
+.botones-h {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h:hover {
+    background-color: #7d7d7d33;
+    color:black;
+}
+
+/*Index*/
+
 .header-index {
     display: flex;
     justify-content: center;
@@ -9,33 +33,9 @@
     margin-top: 0;
 }
 
-body {
-    background-color: #93d595;
-}
-
-.botones-h_i {
-    display: flex;
-    gap: 15px;
-}
-
-.boton-h_i {
-    background-color: #d2d2d240; 
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: medium;
-}
-
-.boton-h_i:hover {
-    background-color: #7d7d7d33;
-    color:black;
-}
-
 .contenido-index {
     border: double;
-    border-color: rgb(114, 114, 114);
+    border-color: #535353;
     border-width: 7px;
     padding: 20px;
     margin-left: 60px;
@@ -43,7 +43,7 @@ body {
     margin-top: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    background-color: white;
+    background-color: #c9ffd3;
 }
 
 .footer-index {
@@ -62,11 +62,7 @@ body {
     font-size: medium;
 }
 
-.logo-f_i {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: 10px; /* Add some space above the image */
-}
+/*Contact*/
 
 .contact-form {
    background-color: #f9f9f9;
@@ -109,6 +105,7 @@ body {
 .contact-form button:hover {
     background-color: #45a049;
 }
+
 .header-contact {
     display: flex;
     justify-content: center;
@@ -119,20 +116,165 @@ body {
     margin-left: 0;
     margin-top: 0;
 }
-.botones-h_c {
+
+/*Degree*/
+
+.header-degree {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
 }
-.boton-h_c {
-    background-color: #d2d2d240; 
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: medium;
+
+.lista-asign {
+    margin-left: 15px;
 }
-.boton-h_c:hover {
-    background-color: #7d7d7d33;
-    color:black; 
+
+.footer-degree {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
+}
+
+/*Net*/
+
+.header-net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.contenido-net {
+    margin: 10px;
+}
+
+.footer-net {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
+}
+
+/*Fii*/
+
+.header-fii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.explicacion-fund {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.footer-degree {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
+}
+
+/*About*/
+
+.header-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.titulo-about {
+    text-align: center;
+    margin-top: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.contenido-about {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.img-RRSS img {
+    width: 50px;
+    margin: 0 9px;
+}
+
+.img-pers {
+    width: 210px;
+    margin: 0 7px;
+    gap: 7px;
+}
+
+.parte2-about, 
+.parte3-about, 
+.parte4-about {
+    margin-top: 10px;
+}
+
+.footer-about {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
+}
+
+/*Topic*/
+
+.contenido-topic {
+    margin: 10px;
+}
+.p1-t, 
+.p2-t,
+.p3-t, 
+.p4-t {
+    margin-top: 7px;
+}
+
+.footer-topic {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
 }

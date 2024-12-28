@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acerca de Mí</title>
 </head>
 <body>
-    
+    <header>
+        <div class="header-about">    
+            <div class="botones">
+                <button class="boton-h" onclick="location.href='index.html'">Inicio</button>
+                <button class="boton-h" onclick="location.href='contact.html'">Contacto</button>
+                <button class="boton-h" onclick="location.href='degree.html'">Grado</button>
+                <button class="boton-h" onclick="location.href='net.html'">Webs de compañeros</button>
+                <button class="boton-h" onclick="location.href='topic.html'">Tópico</button>
+            </div>
+        </div>
+    </header>
+    <div class="titulo-about">
+        <h1>Acerca de Mí</h1>
+    </div>
+    <div class="contenido-about">
+        <h2>Descripción Breve</h2>
+        <p>
+            Soy una persona apasionada por la programación, con experiencia moyoritariamente en HTML y CSS mediante pequeños proyectos. 
+            Me encanta programar, escuchar música y quedar con amigos.
+        </p>
+        <div class="parte2-about">
+            <h2>Currículum Vitae</h2>
+            <ul>
+                <li><b>Nombre:</b> Rodrigo de Funes</li>
+                <li><b>Teléfono:</b> +34 677 818 335</li>
+                <li><b>Correo Electrónico:</b> [Tu Correo Electrónico]</li>
+                <li><b>Educación:</b>
+                    <ul>
+                        <li>Bachillerato Tecnológico en Colegio el Porvenir - 2022/24</li>
+                        <li>Ingeniería Informática en Universidad Francisco de Vitoria - Cursando</li>
+                    </ul>
+                </li>
+                <li><strong>Habilidades:</strong>
+                    <ul>
+                        <li>C1 en inglés</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="parte3-about">
+            <h2>Imágenes</h2>
+            <div class="img-pers" style="display: flex;">
+                <img src="https://tse1.mm.bing.net/th?id=OIG3.xZ7weuhT71E7v_NtX4_n&pid=ImgGn" alt="Imagen 1" />
+                <img src="https://tse1.mm.bing.net/th?id=OIG4.iO19.uX6AyMOmSa7XDlB&pid=ImgGn" alt="Imagen 2" />
+            </div>
+        </div>
+        <div class="parte4-about">
+            <h2>Redes Sociales</h2>
+            <div class="img-RRSS">
+                <a href="https://www.facebook.com/UFVmadrid/?locale=es_ES" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                </a>
+                <a href="https://x.com/ufvmadrid?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAYFBMVEUAAAD///8VFRWQkJCXl5f29vb5+flNTU3v7+9hYWHn5+fY2Njg4OD8/PzFxcUaGhpCQkK4uLhoaGggICCenp7Q0NB+fn6FhYVXV1d0dHRHR0erq6s3NzctLS0JCQmxsbFncfQYAAAFD0lEQVR4nO2b6ZLiMAyEOSYQjgxHgOEI8P5vuTWogw2KsWQbdrfK/WsrleMb5EhtKdsb9P5BZSipMpRUGUqqDCVVhpIqQ0mVoaTKUFJlKKkylFQZSqoMJVWGkipDSZWhpPJBnTdfndo0ygft6LJxCqjBtt+trY7ph66aLVJA9Zalg2qoYZrQNdOL6Gz/mto5oApRJEh7+svKpex0wUL/dlDNxEz19HbBaCI8XwB1RgALIzqwET5jQeuy2gnPF6WEAzFcl2PouKKn7GXP2Or+BmGeutJdj/cD9fx2YC5atyf8TWImGdRi+vw+7+lBJ8HFX/oUIsvoE8awoSNr76VrvBXn5FBtAM0iGlAAp7XnwiO9FIWqAEhrHxjMvZeEuXp9WQ0m4SuhhNqPnhkQwMOrq5AMXp8UDtWuV+v29MDyVWDA9KVjUlgXBNAs2GN1O/LtvmSjTgZaqGXx/Gqj8v94mJR+QgXVG7oC6CizSAZz3wsaBdUyGHdQU1Xsrsxrim6hRtJBHUtHALusFZxB4U+vcVBtZbYYqDJ3eBJUR0HKj4WCtSpMZW7o95g7zlQ4g3CoM2NYdz98FcOk3WKtWTbsDOBPaDIIgkJlrgzDghZPaZ8EW78VbV0SQJ2R2M0RbmvGI38BSgrVG7PSQc6yuifVhjKHZrcTC9W6WxPAevaQJdtkoHQGcVADYijNgnmwVhckA2dFfAtUh72Drbltoa5siX0Eits7/Dqj+l61X/iZN0G1ldlYq3NrrXb0D/nmOR1Uw+wdfqATJYOpZuuSCqplsBaz3XAow5NBDFRbmY29G4wMVEQyiIKqmTc+3JlikkEUVIe9gzGISwZxUGCwd5n04wVY8nRQZ+bPEcBAD5UEqneonhlQFYMccCIoFJSRFUD40lAblQKqbbyYW0xYw+HjUK03DulavQ8KDHaDFbYm2HMmgOL+fF+kCGDcwAhu3KrMvqbHB6DcXauoFBo7WoM7MF6lYQ2Hz0ONmbVKEMBIqMus76jMlXA49Aao1hr0K7OI4gMYB3Uyzm5r7hRdmaOgHkaBFgN+v6P7yvdBoYswxxtoFlEdWZkjoNAuHjU9LCLDwJseH4JCA+23K4Seq8WAxaabfsRDtWP4XTcDBoJhG8BgqOvD8sYiMnlhUkVU5lCop3Ent3eoih/oDt+FZGC2DbB3VuuTcn3QDj4M6oDtlHU1GwiO6ZyQ/ktYg4OeV9rZcc8Y+CznnVDo6BedbWrLG7NZzjuh0NR8Nifw59ZAMLQyB0ChqrAp0ZIx8FnOu6DwnnVkIG7vKICF1lqpofDk766PN9D6NIndOU9KC4VM3f09QuNqeign20qopv8yJfKZFmY5usSug2rw4jmrPwJoFhEfxqWGuhBT5c6HNWt68FlOYqiVf4VMXAGUfmWmhTo5k4El1nhZsFlOSqhXycC6IfPnS3UA5VBwK1PfeWNm7+x5UloobBOm/n0TCyC20fKmhxQKebGSlHxWmc8IfGooepDsq0gewKEugEIo3biTM7CkmgBK+1Uk+1wIsxzPm6uCUo874Ze3+wm0x+qXWSvFF7Ga1gBy2siIDsi+CxBAHUO+fYj6CtoP1SYDXWMH9o5L0rXyQuFTCPVO6eCAklRmH1T7paa+r7pyUAn2zD6oZjP8lbxu3VUPu7XxJ6v/8r+o/BVlKKkylFQZSqoMJVWGkipDSZWhpMpQUmUoqTKUVBlKqgwlVYaSKkNJVQ/+Pf0B76Mxi+Wft8YAAAAASUVORK5CYII=" alt="X">
+                </a>
+                <a href="https://es.linkedin.com/school/universidad-francisco-de-vitoria-/" target="_blank">
+                    <img src="data:image/png;base64,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" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/ufvmadrid/?hl=es" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-about">
+            <div class="footer-contenido">
+                <p>© 2024 Rodrigo de Funes</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
