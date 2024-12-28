@@ -9,10 +9,6 @@
     margin-top: 0;
 }
 
-body {
-    background-color: #93d595;
-}
-
 .botones-h_i {
     display: flex;
     gap: 15px;
@@ -35,7 +31,7 @@ body {
 
 .contenido-index {
     border: double;
-    border-color: rgb(114, 114, 114);
+    border-color: #535353;
     border-width: 7px;
     padding: 20px;
     margin-left: 60px;
@@ -43,7 +39,7 @@ body {
     margin-top: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    background-color: white;
+    background-color: #c9ffd3;
 }
 
 .footer-index {
@@ -67,6 +63,8 @@ body {
     height: auto; /* Maintain aspect ratio */
     margin-top: 10px; /* Add some space above the image */
 }
+
+/*Contact*/
 
 .contact-form {
    background-color: #f9f9f9;
@@ -135,4 +133,135 @@ body {
 .boton-h_c:hover {
     background-color: #7d7d7d33;
     color:black; 
+}
+
+/*Degree*/
+
+.header-degree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.botones-h_d {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_d {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_d:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+}
+
+.lista-asign {
+    margin-left: 15px;
+}
+
+.footer-degree {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
+}
+
+/*Net*/
+
+.header-net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.botones-h_n {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_n {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_n:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+}
+
+/*Fii*/
+
+.header-fii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.botones-h_f {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_f {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_f:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+}
+
+.explicacion-fund {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.footer-degree {
+    background-color: #4caf50; 
+    padding: 10px;
+    text-align: center; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+    margin-left: -10px;
 }
