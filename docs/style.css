@@ -33,6 +33,29 @@
     margin-top: 0;
 }
 
+<<<<<<< HEAD
+=======
+.botones-h_i {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_i {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_i:hover {
+    background-color: #7d7d7d33;
+    color:black;
+}
+
+>>>>>>> 094d2ddc510e13579309face57880918115f786c
 .contenido-index {
     border: double;
     border-color: #535353;
@@ -61,6 +84,8 @@
     margin-bottom: 0 auto; 
     font-size: medium;
 }
+
+/*Contact*/
 
 /*Contact*/
 
@@ -133,6 +158,50 @@
 .lista-asign {
     margin-left: 15px;
 }
+<<<<<<< HEAD
+=======
+.boton-h_c:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+}
+
+/*Degree*/
+
+.header-degree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50; 
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.botones-h_d {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_d {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_d:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+}
+
+.lista-asign {
+    margin-left: 15px;
+}
+>>>>>>> 094d2ddc510e13579309face57880918115f786c
 
 .footer-degree {
     background-color: #4caf50; 
@@ -158,6 +227,7 @@
     margin-top: 0;
 }
 
+<<<<<<< HEAD
 .contenido-net {
     margin: 10px;
 }
@@ -171,6 +241,26 @@
     bottom: 0; 
     width: 100%;
     margin-left: -10px;
+=======
+.botones-h_n {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_n {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_n:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+>>>>>>> 094d2ddc510e13579309face57880918115f786c
 }
 
 /*Fii*/
@@ -186,6 +276,29 @@
     margin-top: 0;
 }
 
+<<<<<<< HEAD
+=======
+.botones-h_f {
+    display: flex;
+    gap: 15px;
+}
+
+.boton-h_f {
+    background-color: #d2d2d240; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.boton-h_f:hover {
+    background-color: #7d7d7d33;
+    color:black; 
+}
+
+>>>>>>> 094d2ddc510e13579309face57880918115f786c
 .explicacion-fund {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -201,6 +314,7 @@
     bottom: 0; 
     width: 100%;
     margin-left: -10px;
+<<<<<<< HEAD
 }
 
 /*About*/
@@ -277,4 +391,6 @@
     bottom: 0; 
     width: 100%;
     margin-left: -10px;
+=======
+>>>>>>> 094d2ddc510e13579309face57880918115f786c
 }
