@@ -236,7 +236,8 @@
 }
 
 .img-pers {
-    width: 90px;
+    display: grid;
+    grid-template-columns: 80px;
     margin-left: 7px;
     margin-top: 10px;
     gap: 7px;
