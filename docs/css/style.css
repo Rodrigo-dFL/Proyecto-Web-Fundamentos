@@ -20,6 +20,16 @@
     color:black;
 }
 
+body {
+    background-image: repeating-linear-gradient(
+        -45deg,
+        #fff 0px,
+        #fff 20px,
+        #c3ffb4 20px,
+        #c3ffb4 40px
+    );
+}
+
 /*Index*/
 
 .header-index {
@@ -34,17 +44,17 @@
 }
 
 .contenido-index {
-    border: double;
+    border: dashed;
     border-color: #535353;
     border-width: 7px;
-    padding: 20px;
+    padding: 20px 50px;
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    background-color: #c9ffd3;
-}
+    background-color: #ffffff;
+}*/
 
 .footer-index {
     background-color: #4caf50; 
