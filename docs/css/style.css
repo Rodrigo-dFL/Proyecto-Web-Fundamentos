@@ -237,7 +237,8 @@
 
 .img-pers {
     width: 90px;
-    margin: 0 7px;
+    margin-left: 7px;
+    margin-top: 10px;
     gap: 7px;
 }
 
